@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>NewsJ17001</display-name>
+	<servlet>
+		<servlet-name>AddReplyServlet</servlet-name>
+		<servlet-class>cn.sdcet.news.web.AddReplyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SearchNewsServlet</servlet-name>
+		<servlet-class>cn.sdcet.news.web.SearchNewsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddCatalogServlet</servlet-name>
+		<servlet-class>cn.sdcet.news.web.AddCatalogServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateCatalogServlet</servlet-name>
+		<servlet-class>cn.sdcet.news.web.UpdateCatalogServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteNewsServlet</servlet-name>
+		<servlet-class>cn.sdcet.news.web.DeleteNewsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddNewsServlet</servlet-name>
+		<servlet-class>cn.sdcet.news.web.AddNewsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UploadServlet</servlet-name>
+		<servlet-class>cn.sdcet.news.web.UploadServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateNewsServlet</servlet-name>
+		<servlet-class>cn.sdcet.news.web.UpdateNewsServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>LoginCheckServlet</servlet-name>
+    <servlet-class>cn.sdcet.news.web.LoginCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>cn.sdcet.news.web.LogoutServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>AddReplyServlet</servlet-name>
+		<url-pattern>/addReply</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SearchNewsServlet</servlet-name>
+		<url-pattern>/searchNews</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddCatalogServlet</servlet-name>
+		<url-pattern>/manage/addCatalog</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateCatalogServlet</servlet-name>
+		<url-pattern>/manage/updateCatalog</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteNewsServlet</servlet-name>
+		<url-pattern>/manage/deleteNews</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddNewsServlet</servlet-name>
+		<url-pattern>/manage/addNews</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UploadServlet</servlet-name>
+		<url-pattern>/manage/upload</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateNewsServlet</servlet-name>
+		<url-pattern>/manage/updateNews</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginCheckServlet</servlet-name>
+    <url-pattern>/logincheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+	<filter>
+		<filter-name>PermissFilter</filter-name>
+		<filter-class>cn.sdcet.news.web.PermissFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>PermissFilter</filter-name>
+		<url-pattern>/manage/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>CharacterFilter</filter-name>
+		<filter-class>cn.sdcet.news.web.CharacterFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>CharacterFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

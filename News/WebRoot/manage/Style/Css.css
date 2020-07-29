@@ -1,0 +1,580 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	display:block;
+}
+body {
+	background-color: #FFF;
+}
+a {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #2953A9;
+}
+a:hover {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+}
+input {
+	font-family: Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+}
+select {
+	font-family: Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+}
+.subTitle /*每一页的大标题*/{
+	margin-top: 15px;
+	font-family: Arial, "宋体";
+	font-size: 14px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000000;
+	height: 30px;
+	text-indent: 25px;
+	background-image: url(../Images/Pic_title_icon.gif);
+	background-repeat: no-repeat;
+	background-position: 5px 6px;
+	width: 95%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #3B6ABA;
+}
+.button/*用于按钮行*/ {
+	width: 90%;
+	padding: 0px;
+	list-style-type: none;
+	margin-top: 8px;
+	margin-right: auto;
+	margin-bottom: 8px;
+	margin-left: auto;
+	display: block;
+}
+.button li {
+	float: left;
+	margin-right: 10px;
+}
+.button a {
+	border: 1px solid #316AAB;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 20px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	background-image: url(../Images/Bj_button.gif);
+	background-repeat: repeat;
+	background-position: 0px 1px;
+	background-color: #FFFFFF;
+	padding-top: 3px;
+	padding-bottom: 1px;
+}
+.button a:hover {
+	border: 1px solid #DC7500;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 20px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: normal;
+	color: #671D03;
+	text-decoration: none;
+	background-image: url(../Images/Bj_button2.gif);
+	background-repeat: repeat;
+	background-position: 0px 1px;
+	background-color: #FFFFFF;
+	padding-top: 3px;
+	padding-bottom: 1px;
+}
+.button1 {
+	width: 90%;
+	padding: 0px;
+	list-style-type: none;
+	margin-top: 8px;
+	margin-right: auto;
+	margin-bottom: 8px;
+	margin-left: auto;
+}
+.button1 li {
+	float: left;
+	margin-right: 10px;
+}
+.button1 a {
+	border: 1px solid #316AAB;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 20px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	background-image: url(../Images/Bj_button.gif);
+	background-repeat: repeat;
+	background-position: 0px 1px;
+	background-color: #FFFFFF;
+	padding-top: 3px;
+	padding-bottom: 1px;
+}
+.button2/*用于单独按钮*/ {
+	background-image: url(../Images/Pic_button.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #233F67;
+	border: 1px solid #3069A8;
+	text-decoration: none;
+	height: 18px;
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #F2F6FA;
+	display: block;
+	width: 40px;
+	float: left;
+}
+.button2:hover/*用于单独按钮*/ {
+	background-image: url(../Images/Bj_button2.gif);
+	background-repeat: repeat;
+	background-position: 0px 0px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #671D03;
+	border: 1px solid #DC7500;
+	text-decoration: none;
+	height: 18px;
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #F2F6FA;
+	display: block;
+	width: 40px;
+	float: left;
+}
+.button3/*用于单独按钮*/ {
+	background-image: url(../Images/Pic_button.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #233F67;
+	border: 1px solid #3069A8;
+	text-decoration: none;
+	height: 18px;
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #F2F6FA;
+}
+.table /*用于查询以及类似的列表页*/ {
+	margin-top: 10px;
+	border-top-width: 3px;
+	border-bottom-width: 2px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #5084BB;
+	border-bottom-color: #5084BB;
+	border-left-color: #5084BB;
+}
+.table th {
+	background-image: url(../Images/Bj_titleTh.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 29px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 29px;
+	font-weight: normal;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #5084BB;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+.table td {
+	height: 24px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5084BB;
+	padding-right: 4px;
+	padding-left: 4px;
+	background-color: #EEF6FF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #5084BB;
+	border-left-color: #FFFFFF;
+}
+
+.table2 /*用于表单、详情等页面*/{
+	margin-top: 10px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #5084BB;
+	border-left-color: #5084BB;
+}
+.table2 th {
+	height: 24px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5084BB;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #EEF6FF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #5084BB;
+	border-left-color: #FFFFFF;
+	color: #355C88;
+}
+.table2 td {
+	height: 24px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5084BB;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #EEF6FF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #5084BB;
+	border-left-color: #FFFFFF;
+}
+.table3 /*用于表单、详情等页面*/{
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #5084BB;
+	border-left-color: #5084BB;
+}
+.table3 th {
+	background-image: url(../Images/Bj_titleTh.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 29px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 29px;
+	font-weight: normal;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #5084BB;
+}
+.table3 td {
+	height: 24px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5084BB;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #EEF6FF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #5084BB;
+	border-left-color: #FFFFFF;
+}
+.label1 {
+	line-height: 28px;
+}
+.input1 /*定义边框颜色和字体大小以及宽度为80％*/ {
+	border: 1px solid #3F6DA0;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	height: 18px;
+	padding-right: 2px;
+	padding-left: 2px;
+	width: 80%;
+}
+.input2 /*定义边框颜色和字体大小*/ {
+	border: 1px solid #3F6DA0;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	height: 18px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.input3 /*定义边框颜色和字体大小以及宽度为97％*/ {
+	border: 1px solid #3F6DA0;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	height: 18px;
+	padding-right: 2px;
+	padding-left: 2px;
+	width: 97%;
+}
+.inputleft {
+	border: 1px solid #3F6DA0;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	height: 18px;
+	padding-right: 2px;
+	padding-left: 2px;
+	float: left;
+	display: block;
+}
+.textLeft {
+	float: left;
+	display: block;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.imgleft {
+	float: left;
+	display: block;
+	margin: 4px;
+	height: 16px;
+	width: 16px;
+}
+.select1 {
+	border: 1px solid #3F6DA0;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	height: 18px;
+	padding-right: 2px;
+	padding-left: 2px;
+	width: 80%;
+}
+.select2 {
+	border: 1px solid #3F6DA0;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	height: 18px;
+	padding-right: 2px;
+	padding-left: 2px;
+	width: 97%;
+}
+.select3 {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	height: 18px;
+}
+.selectLest1 {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+}
+.textarea1 {
+	border: 1px solid #3F6DA0;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	padding-right: 2px;
+	padding-left: 2px;
+	width: 97%;
+}
+.textarea2 {
+	border: 1px solid #3F6DA0;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	padding-right: 2px;
+	padding-left: 2px;
+	width: 80%;
+}
+.textarea3 {
+	border: 1px solid #3F6DA0;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.tableSearch {
+	margin-top: 10px;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #5084BB;
+	border-left-color: #5084BB;
+}
+.tableSearch th {
+	height: 24px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5084BB;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #EEF6FF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #5084BB;
+	border-left-color: #FFFFFF;
+	color: #355C88;
+}
+.tableSearch td {
+	font-family: Arial, "宋体";
+	height: 24px;
+	font-size: 12px;
+	line-height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5084BB;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #EEF6FF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #5084BB;
+	border-left-color: #FFFFFF;
+}
+.mailTable {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+}
+.page {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 26px;
+	color: #000000;
+	height: 26px;
+	margin-top: 10px;
+	background-color: #EEF6FF;
+}
+.page td {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.page select {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	line-height: 18px;
+	border: 1px solid #5084BB;
+}
+
+.yesno{
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+.yesno input {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	background-image: url(../Images/Pic_button.gif);
+	background-color: #E0EAF4;
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	border: 1px solid #316AAB;
+	line-height: 18px;
+	height: 20px;
+	width: 45px;
+}
+.yesno .button3 {
+	background-image: url(../Images/Pic_button.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	line-height: 18px;
+	color: #233F67;
+	border: 1px solid #3069A8;
+	text-decoration: none;
+	height: 18px;
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #F2F6FA;
+}
+.clientText1/*用于表单详情中的小标题*/ {
+	font-weight: bold;
+}
+.formTitle/*用于表单详情中的小标题*/{
+	font-weight: bold;
+	margin-left: 10px;
+}
+#wrapper /*遇到列表分左右排列时包含*/{
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+}

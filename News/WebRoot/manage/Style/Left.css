@@ -1,0 +1,99 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-image: url(../Images/Bj_left.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+	background-color: #3374BE;
+}
+.leftMenu {
+	width: 177px;
+	float: left;
+	border: 0px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-image: url(../Images/Pic_left_line.gif);
+	padding: 0px;
+	margin-top: 14px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.leftMenu td {
+	background-image: url(../Images/Pic_left_line.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-left: 10px;
+	line-height: 36px;
+	height: 30px;
+	cursor: hand;
+}
+.leftMenu a {
+	font-family: Arial, Helvetica, sans-serif, "ËÎÌו";
+	font-size: 14px;
+	font-weight: bold;
+	color: #12247A;
+	text-decoration: none;
+	line-height: 30px;
+	margin-left: 5px;
+	background-image: url(../Images/Pic_arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 10px;
+	display: block;
+	text-indent: 10px;
+	width: 100%;
+}
+.leftMenu a:hover {
+	background-image: url(../Images/Pic_arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 10px;	/*padding-left: 14px;*/
+}
+.leftMenu td table {
+	border: 0px;
+	padding: 0px;
+	margin-left: 12px;
+}
+.leftMenu td table td {
+	background-image: url(../Images/Pic_left_line.gif);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-left: 10px;
+	line-height: 36px;
+	height: 30px;
+	cursor: hand;
+}
+.leftMenu td table td a {
+	font-family: Arial, Helvetica, sans-serif, "ËÎÌו";
+	font-size: 12px;
+	font-weight: normal;
+	color: #12247A;
+	text-decoration: none;
+	line-height: 30px;
+	margin-left: 5px;
+	background-image: url(../Images/Pic_arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	display: block;
+	text-indent: 20px;
+	width: 100%;
+}
+.leftMenu td table td a:hover {
+	font-weight: bold;
+	background-image: url(../Images/Pic_arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 24px 10px;
+	padding-left: 14px;
+}
+
+#shrink {
+	display: block;
+	height: 40px;
+	width: 5px;
+	padding: 0px;
+	margin-top: 156px;
+	margin-right: 0px;
+	margin-bottom: auto;
+	margin-left: 0px;
+	float: left;
+}

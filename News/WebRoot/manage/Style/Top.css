@@ -1,0 +1,137 @@
+body {
+	background-color: #FFFFFF;
+	background-repeat: repeat-x;
+	background-position: 999px top;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-image: url(../Images/Bj_top.gif);
+}
+#top {
+	background-color: #FFFFFF;
+	background-image: url(../Images/Pic_top_img.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 999px;
+	height: 76px;
+	font-family: Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	color: #000000;
+}
+#time {
+	line-height: 25px;
+	text-align: center;
+	height: 25px;
+	width: 235px;
+	font-family: Arial, Helvetica, sans-serif, "宋体";
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 702px;
+	margin-right: 0px;
+}
+#menuBg {
+	background-image: url(../Images/Bj_menu.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #0066CC;
+	height: 24px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	font-family: Arial, Helvetica, sans-serif, "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: left;
+	line-height: 24px;
+}
+#name {
+	line-height: 24px;
+	height: 24px;
+	width: 70px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	background-image: url(../Images/Pic_iconAdmin.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-weight: bold;
+	display: block;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	margin-left: 10px;
+	border: 0px;
+}
+#menu {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+#menu a {
+	margin-right: 16px;
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#menu #home {
+	background-image: url(../Images/Pic_homeIcon.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	padding-left: 20px;
+	width: 30px;
+	height: 24px;
+	display: block;
+	float: left;
+}
+#menu #user {
+	background-image: url(../Images/Pic_iconUser.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	padding-left: 22px;
+	width: 50px;
+	height: 24px;
+	display: block;
+	float: left;
+}
+#menu #manage {
+	background-image: url(../Images/Pic_iconManage.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	padding-left: 22px;
+	width: 50px;
+	height: 24px;
+	display: block;
+	float: left;
+}
+#menu #quit {
+	background-image: url(../Images/Pic_quitIcon.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	padding-left: 20px;
+	width: 30px;
+	height: 24px;
+	display: block;
+	float: left;
+}
+#menu #help {
+	background-image: url(../Images/Pic_helpIcon.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 1px;
+	padding-left: 20px;
+	width: 30px;
+	height: 24px;
+	display: block;
+	float: left;
+}

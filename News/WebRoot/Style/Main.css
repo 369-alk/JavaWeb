@@ -1,0 +1,116 @@
+/*
+Style Name:
+Author: Fifthmouse
+*/
+
+/*============================通用====*/
+* {margin:0;padding:0;}
+body {background:#4270a4 url(../Images/Bj_body.gif) repeat-x;font:normal 12px/18px "Arial","宋体";}
+h1, h2, h3, h4, h5, h6 {font-size:14px;font-weight:bold;font-family:Arial, Tahoma, "微软雅黑";}
+table,td,th {border-collapse:collapse;}
+ul , li {list-style-type:none;}
+a {color:#000;}
+/*= 清除非IE浏览器下的浮动溢出 =*/
+.wrapfix:after{	content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.wrapfix {display: inline-table;}
+/* Hides from IE-mac \*/
+* html .wrapfix {height: 1%;}
+.wrapfix {display: block;}
+/* End hide from IE-mac */
+
+/*============================结构====*/
+#wrapper {width:750px;height:auto!important;height:100px;min-height:100px;margin:0px auto;padding:0 10px 10px;background:#fff;}
+/*= 页眉 =*/
+#header {height:auto!important;height:100px;min-height:100px;background:url(../Images/Bj_header.gif) no-repeat;position:relative;}
+/*= 内容区域 =*/
+#main {height:auto!important;height:100px;min-height:100px;margin-top:10px;}
+	/*= 主要内容 =*/
+	#mostlyCon {width:550px;height:auto!important;height:100px;min-height:100px;float:right;}
+	/*= 旁边内容 =*/
+	#sideCon {width:190px;height:auto!important;height:100px;min-height:100px;float:left;}
+/*= 页脚 =*/
+#footer {height:auto!important;height:60px;min-height:60px;margin:10px 0 0;background:url(../Images/Bj_footer.gif) repeat-x;text-align:center;}
+	#footer p {padding:20px 0 0;}
+
+/*============================容器====*/
+#logo {width:220px;height:60px;padding:27px 0 0 36px;}
+	#logo a {width:220px;height:60px;background:url(../Images/Pic_logo.gif) no-repeat;display:block;text-indent:-99999em;}
+
+/*= 搜索框 =*/
+.search {height:36px;position:absolute;bottom:0;right:10px;line-height:36px;}
+/*= 针对IE6 =*/
+*html .search form {padding:8px 0 0;}
+	.search input {vertical-align:middle;}
+	/*= 搜索框 =*/
+	.search .iText {width:148px;height:18px;border:1px solid #bababa;font-size:12px;line-height:18px;}
+	/*= 搜索按钮 =*/
+	.search .btn {width:63px;height:18px;border:none;background:url(../Images/Pic_serchBtn.gif) no-repeat;font-size:12px;color:#fff;text-align:center;}
+	.search select {border:none;font-size:12px;vertical-align:middle;}
+
+/*= 新闻类型 =*/
+#nav h3 {height:40px;line-height:40px;color:#025e02;text-indent:10px;}
+#nav ul {width:180px;margin:0 auto;}
+	#nav li {width:180px;height:26px;margin:0 0 10px;background:url(../Images/Bj_li.gif) no-repeat;line-height:26px;text-indent:15px;}
+	#nav li a {color:#fff;text-decoration:none;}
+	#nav li a:hover {text-decoration:underline;}
+
+/*= 新闻列表 =*/
+.newslist {margin:10px 0 0;border:1px solid #dfe8f6;}
+	.newslist .hd {height:33px;border-bottom:1px solid #dfe8f6;background:url(../Images/Bj_hb.gif) repeat-x;}
+		.newslist .hd h3 {width:75px;height:20px;margin:6px 0 0 10px;padding-bottom:5px;background:url(../Images/Bj_h3.gif) no-repeat;text-align:center;color:#fff;line-height:20px;}
+	.newslist .bd {padding:5px;}
+		.newslist .bd .list {line-height:22px;}
+			.newslist .bd .list li {height:22px;padding:0 80px 0 0;position:relative;overflow:hidden;}
+			.newslist .bd .list .date {position:absolute;top:0;right:5px;color:#666;}
+			.newslist .bd .list .category {padding:0 5px 0 0;display:inline-block;color:#666;}
+			.newslist .bd .list a {color:#000;}
+			.newslist .bd .list a:hover {text-decoration:none;}
+
+/*=分页=*/
+.paging {height:30px;margin:10px 0 0;padding:0;font:normal normal 12px/30px Arial, Tahoma, "宋体";}
+	.paging .total {float:left;}
+	.paging .pn {float:right;}
+		.paging .pn a {padding:0 4px;border:1px solid #999;text-decoration:none;color:#000;}
+		.paging .pn a:hover {border-color:#c00;}
+		.paging .pn a.nonce {border:none;color:#c00;}
+		.paging .pn a.nobar {border:none;text-decoration:underline;}
+
+/*=文档详情=*/
+.doc-info-view {height:auto!important;height:100px;min-height:100px;padding:10px 18px;border:1px solid #ccc;background-color:#fbfbfb;}
+hr.double {border-top:1px solid #ccc;border-right:none;border-bottom:1px solid #fff;border-left:none;background-color:#fff;}
+
+/*=标题=*/
+.doc-info-view .hd h1 {height:28px;padding:20px 0 0;color:#000000;font-size:18px;line-height:28px;text-align:center;}
+.doc-info-view .hd h3 {padding:0 0 10px;line-height:28px;}
+
+/*=属性=*/
+.doc-parameter {padding:0 0 10px;text-align:center;line-height:30px;}
+.doc-parameter div {height:30px;padding:0 10px;display:inline;line-height:30px;}
+.doc-parameter div.price {color:#900;font-weight:bold;}
+
+/*=正文=*/
+.doc-text {padding:10px 15px;font:normal normal 14px/24px Arial, Tahoma, "宋体"}
+	.doc-text p {padding:0 0 10px;word-break:break-all;text-align:justify;text-justify:inter-ideograph;text-indent:2em;}
+	.doc-text img {margin:5px;border:1px solid #ccc;}
+
+/*=提醒=*/
+.doc-tips {padding:5px 15px 10px 15px;font-size:14px;}
+	.doc-tips .bd p {text-indent:1em;}
+	.doc-tips a {color:#900;text-decoration:underline;}
+
+/*=文章评论=*/
+.comment {padding:5px 15px;}
+	/*=评论列表=*/
+	ol.com-list p.title {height:auto!important;height:30px;min-height:30px;border-bottom:1px solid #cccccc;background-color:#f4f4f4;line-height:30px;}
+	ol.com-list p.title span.num ,ol.com-list p.title span.name {padding:0 5px;float:left;}
+	ol.com-list p.title span.time {padding:0 5px;float:right;}
+	ol.com-list .com-body {height:auto!important;height:20px;min-height:20px;padding:10px 20px;line-height:20px;}
+	/*=发表评论=*/
+	.com-form textarea.textarea {width:620px;padding:3px;border:1px solid #666666;}
+	.com-form p {padding:5px 0;line-height:20px;}
+	.com-form label {padding:0 4px;line-height:20px;}
+	.com-form input , .com-form img {vertical-align:middle;}
+	.com-form input.iText {height:18px;border:1px solid #666666;line-height:28px;}
+
+/*=错误页面=*/
+.error {height:auto!important;height:100px;min-height:100px;padding:10px 18px;border:1px solid #ccc;background-color:#fbfbfb;}
